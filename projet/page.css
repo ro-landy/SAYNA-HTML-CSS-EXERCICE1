@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    background-image: url("img/background.png");
+}
+/*---------------------------------------barre de navigation ou barre de menu --------------------------------*/
+header{
+    background-color: #C55394;
+    position: fixed;
+    margin-top:-8px;
+    height: 53px;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    line-height: 47px;
+    z-index: 1000;
+ }
+ header p{
+    margin-top:5px;
+	padding: 0px 50px; 
+    font-size: 20px; 
+ }
+header p a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Courgette', 'cursive';
+}
+header p a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+nav{
+	float:right;
+	margin-top:-55px;
+}
+nav a {
+	text-decoration: none;
+	color:white;
+    padding:26px 20px 14px; 
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+nav a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #EB43A3; 
+}
+/*--------------------------------------------contenues--------------------------------------------*/
+
+/*-------------------l'arc en ciel et le tire "un jour;une licorne"------------------------*/
+.rainbow img{
+    width:365px;
+    transform: translateX(20px);
+    transform: translateY(20px);
+    margin-left: 425px;
+    margin-top: 55px;
+}
+.titre {
+    position: absolute;
+    top: 116px;
+    width: 100%;
+    text-align: center;
+    color: #C55394;
+    font-family: 'Courgette', 'cursive';
+}
+
+/*-------------------box shadow------------------------*/
+.box{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+	height: 1230px;
+	width: 850px;
+	margin-top: -35px;
+	border-radius: 10px;
+	margin-left: 208px;
+    background-color: #fff;
+}
+.autresTitres{
+    padding:35px 30px 0px 17px;  
+}
+.autresTitres h3{
+    font-size: 20px;
+    font-family: 'Courgette', 'cursive';
+    color:#EB43A3;
+}
+.principe p{
+    font-size:15px;
+    font-family: Arial, sans-serif;
+}
+.row{display:flex;
+    padding-inline:16px;}
+.row figure:hover{
+    transform: scale(1.1);
+}
+figure{padding-right: 15px;}
+.row img{
+    width:192px; height:190px;
+}
+figcaption{
+	border-radius: 0;
+    padding: 0.5em;
+	border: none;
+	background-color: rgba(0,0,0,0.9);
+    position:relative;
+    width: 23%;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    font-family:  Arial, sans-serif;
+    bottom: 4.5vh;
+}
+/*------- nous trouver avec le map ---------*/
+.formulaire{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+    margin: 10px 2px 0px 40px;
+}
+.formulaire h4{
+    color: #333;
+    font-size: 15px;
+    font-family:  Arial, sans-serif;
+}
+input{
+    font-family:  Arial, sans-serif;
+}
+.send{
+    margin-top: 15px;
+	border:#EB43A3 solid 1px;
+	background-color:#EB43A3;
+	color:white;
+	width:70px;
+	height:35px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/*------------------------------------------------------------footer ----------------------------------------------------------*/
+.foot{
+    background-color: #E577B5;
+    color:#fff;
+    float: right;
+    width: 100%;
+    text-align: right;
+    padding:18px  30px 0px 0px;
+    margin-top: 30px;
+    font-family:  Arial, sans-serif;
+}

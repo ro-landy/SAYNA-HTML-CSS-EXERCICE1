@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Ma page HTML</title>
+        <link rel="stylesheet" href="page.css"/>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<body>
+<!-------------------------------------------------Bare de Navigation ou barre de menu ---------------------------------------------->
+<div>
+    <header>
+        <p><a href="#MYUNICORN">MyUnicorn</a></p>
+            <nav> 
+                <a href="#PRINCIPE"> LE PRINCIPE</a>
+                <a href="#LICORNES">NOS LICORNES</a>
+                <a href="#TROUVER">NOUS TROUVER</a>
+            </nav>
+    </header>  
+</div>    
+   
+<!--------------------------------------------------------------contenus ------------------------------------------------------------>
+
+<!--------l'arc en ciel et le tire "un jour;une licorne"--------------->
+<div class="rainbow" id="MYUNICORN">
+    <figure>
+        <img src="img/rainbow.png">
+    </figure>
+	<div class="titre">
+	   <h1 style="font-size: 22px;">Un jour, une licorne</h1>
+	</div>
+</div>
+
+<!-------------------  le box shadow  ------------------------>
+<div class="box">
+    <div class="autresTitres">
+
+        <!------- les principes qvec l'ajout des paragraphes --------->
+        <div class="principe" id="PRINCIPE">
+            <h3><i class="fa  fa-star-o"></i> Le Principe</h3><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In dictum dapibus ante, eu aliquam ante euismod eleifend. 
+                    Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. 
+                    Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, 
+                    sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. 
+                    Nullam quis turpis sed lorem elementum semper eget semper risus. 
+                    In nec mauris aliquam, congue metus euismod, cursus leo. 
+                    ivamus laoreet commodo leo, ut cursus justo blandit in. 
+                    Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales.
+                    Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. 
+                    Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, 
+                    non sodales ipsum sollicitudin sed.</p>
+            
+                <p>Donec nisi eros, luctus id pretium eget, consequat elementum risus.
+                    Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. 
+                    Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum.
+                    Vestibulum a massa lacus. Aenean quis enim diam.</p><br>
+        </div>
+
+       <!------- nos licornes avec l'insertion d'images --------->
+        <div class="licornes" id="LICORNES">
+            <h3><i class="fa fa-star-o"></i> Nos licornes</h3><br>
+                <div class="row">
+                    <div class="image"><figure><img src="img/unicorns/photo1.jpg"><figcaption>Lulu confety</figcaption></figure></div><br>
+                    <div class="image"><figure><img src="img/unicorns/photo2.jpg"><figcaption>Lapillon Magik</figcaption></figure></div>
+                    <div class="image"><figure><img src="img/unicorns/photo3.jpg"><figcaption>El Ninjacorn</figcaption></figure></div>
+                    <div class="image"><figure><img src="img/unicorns/photo4.jpg"><figcaption>Sweety Candy</figcaption></figure></div>
+                </div>
+        </div><br>
+    
+         <!------- nous trouver avec le map --------->
+        <div class="trouver" id="TROUVER">
+            <h3><i class="fa fa-star-o"></i> Nous Trouver</h3><br>
+            <div class="row" style="display: flex;">
+                <div class="col-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.5351774952!2d47.52404341469473!3d-18.907691287184694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e00bfe681a5%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2smg!4v1644333271523!5m2!1sfr!2smg" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-6">
+                    <div class="formulaire">
+                        <p>Notre élevage de licornes est situé au :</p>
+                        <h4>
+                            Analakely Market<br>
+                            Arabe Rahezavana,<br> Antananarivo,<br> Madagascar<br>
+                            01.22.45.67.90</h4><br>
+                        <p>Newsletter</p>
+                        <h4>Abonnez-vous simplement à notre newsletter mensuelle !</h4>
+                        <form action="#">
+                            <div>
+                                <input type="email" name="email" required="" id="emailinput" placeholder="Votre@email.fr">
+                            </div>
+                            <button class="send">Valider</button> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br><br>
+<!--------------------------------------------------------------footer ------------------------------------------------------------>
+<footer class="foot">
+    <p>2022 @MyUnicorn.Com</p>
+</footer>
+</body>
+
+</html>
